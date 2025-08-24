@@ -5,9 +5,9 @@ A curated list of OS concepts every backend engineer should know, with practical
 
 ---
 
-## Table of Contents
+# Table of Contents
 
-# Basics of Operating Systems
+### Basics of Operating Systems
 - [Operating System Introduction](#operating-system-introduction)
 - [Process, Program, and Thread](#process-program-and-thread)
 - [Types of Operating Systems](#types-of-operating-systems)
