@@ -32,12 +32,22 @@ An **operating system (OS)** is system software that manages computer hardware, 
   - File system management: Organizes and manages data storage.
   - Device management: Controls hardware devices like printers and disks.
   - User interface: Provides interaction via GUI or command-line interfaces.
+  - Security & Access Control: Protects against unauthorized access and ensures user data privacy.
 
 ## Process, Program, and Thread
 
-- **Program**: A static set of instructions stored on disk (e.g., an executable file).
-- **Process**: A program in execution, including its code, data, and system resources like memory and CPU time.
-- **Thread**: A smaller unit of execution within a process. Multiple threads within a process share resources but execute independently.
+### Process:
+  - A process is a program that is currently being executed by the operating system. It is not just the code, but also includes the program’s current activity, state, memory layout, allocated                         resources, and data needed during execution.
+### Types of Processes
+  - **System Processes**: These are core processes that are created and managed by the operating system itself. They are responsible for system-level tasks like memory management, device drivers, and background                             services.
+  - **User Processes**: These are processes started by the user. For instance, when you open a text editor, it becomes a user process.
+  - **Foreground Processes**: These are visible processes that require and involve user interaction. The programs you actively work with (e.g., a word processor) are foreground processes.
+  - **Background Processes**: These run without direct user interaction. Examples include file synchronization tools or system update services running silently in the background.
+
+### Program: 
+  - A program is a static set of instructions written in a programming language, stored on a disk or other storage medium. It is a passive entity that only defines what the computer is supposed to do.                 It becomes an active process only when the OS loads and executes it.
+### Thread: 
+  - A thread is the smallest unit of execution within a process. If a process is a large task, then threads are the smaller subtasks within it. A process can have one or multiple threads. Each thread                 represents a single sequence of instructions executed independently.
 
 *Example*: A web browser (program) runs as a process, with threads handling tasks like rendering pages and downloading files.
 
