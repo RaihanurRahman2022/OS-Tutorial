@@ -40,7 +40,7 @@ An **operating system (OS)** is system software that manages computer hardware, 
   - A process is a program that is currently being executed by the operating system. It is not just the code, but also includes the program’s current activity, state, memory layout, allocated                         resources, and data needed during execution.
     
 ### Types of Processes
-  **System Processes** are core processes created and managed by the operating system to perform essential system-level tasks.
+  #### **System Processes** are core processes created and managed by the operating system to perform essential system-level tasks.
 
   - **Characteristics**:
     - Handle critical operations like memory management, device drivers, and background services.
@@ -48,21 +48,21 @@ An **operating system (OS)** is system software that manages computer hardware, 
     - Essential for system stability and functionality.
   - **Example**: Kernel processes, task schedulers, or device driver services in Windows or Linux.
   
-  **User Processes** are processes initiated by the user through direct actions, such as launching an application.
+  #### **User Processes** are processes initiated by the user through direct actions, such as launching an application.
   
   - **Characteristics**:
     - Started by user interaction (e.g., clicking an application icon).
     - Typically associated with user-level applications.
   - **Example**: Opening a text editor like Notepad or VS Code creates a user process.
   
-  **Foreground Processes** are visible processes that require and involve user interaction, typically tied to applications the user is actively working with.
+  #### **Foreground Processes** are visible processes that require and involve user interaction, typically tied to applications the user is actively working with.
   
   - **Characteristics**:
     - Directly interact with the user through a graphical or command-line interface.
     - High priority for user responsiveness.
   - **Example**: A word processor (e.g., Microsoft Word) or a web browser actively in use.
     
-  **Background Processes** run without direct user interaction, performing tasks silently in the background.
+  #### **Background Processes** run without direct user interaction, performing tasks silently in the background.
   
   - **Characteristics**:
     - Operate independently of user input.
