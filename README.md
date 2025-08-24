@@ -55,17 +55,13 @@ An **operating system (OS)** is system software that manages computer hardware, 
     - Typically associated with user-level applications.
   - **Example**: Opening a text editor like Notepad or VS Code creates a user process.
   
-  ## Foreground Processes
-  
   **Foreground Processes** are visible processes that require and involve user interaction, typically tied to applications the user is actively working with.
   
   - **Characteristics**:
     - Directly interact with the user through a graphical or command-line interface.
     - High priority for user responsiveness.
   - **Example**: A word processor (e.g., Microsoft Word) or a web browser actively in use.
-  
-  ## Background Processes
-  
+    
   **Background Processes** run without direct user interaction, performing tasks silently in the background.
   
   - **Characteristics**:
@@ -75,6 +71,13 @@ An **operating system (OS)** is system software that manages computer hardware, 
 
 ### Program: 
   - A program is a static set of instructions written in a programming language, stored on a disk or other storage medium. It is a passive entity that only defines what the computer is supposed to do.                 It becomes an active process only when the OS loads and executes it.
+    
+### Key Features of a Program:
+  - **Static Code**: Programs are stored as files—often in binary form—after compilation. They do not perform any function until executed. Examples: `.exe`, `.out`.
+  - **File Format**: Depending on the OS, programs use different executable formats:
+    - **ELF (Executable and Linkable Format)**: Used in Linux.
+    - **PE (Portable Executable)**: Used in Windows.
+  - **Dependency on OS**: A program cannot run by itself. It depends on the operating system to allocate memory, schedule CPU time, and handle hardware interactions.
     
 ### Thread: 
   - A thread is the smallest unit of execution within a process. If a process is a large task, then threads are the smaller subtasks within it. A process can have one or multiple threads. Each thread                 represents a single sequence of instructions executed independently.
